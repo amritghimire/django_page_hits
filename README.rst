@@ -27,10 +27,18 @@ A middleware which stores the records of page view counts
 * Documentation: https://django-page-hits.readthedocs.io.
 
 
-Features
---------
+Installation
+------------
 
-* TODO
+
+1. Install from github or clone the repository:
+    `pip install django_page_hits`
+
+2. Add *'django_page_hits'* at the end of **INSTALLED_APPS**.
+
+3. Add *'django_page_hits.middleware.PageHitsMiddleware'* to end of **MIDDLEWARE_CLASSES**.
+
+4. Run `python manage.py syncdb` or `python manage.py migrate`.
 
 Credits
 -------

@@ -7,4 +7,5 @@ tox==3.14.0
 coverage==4.5.4
 Sphinx==1.8.5
 twine==1.14.0
-
+setuptools~=45.2.0
+Django~=3.1.2

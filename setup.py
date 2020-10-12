@@ -14,7 +14,7 @@ requirements = [ ]
 
 setup_requirements = [ ]
 
-test_requirements = [ ]
+test_requirements = [ 'Django~=3.1.2']
 
 setup(
     author="Amrit Ghimire",
@@ -40,7 +40,7 @@ setup(
     name='django_page_hits',
     packages=find_packages(include=['django_page_hits', 'django_page_hits.*']),
     setup_requires=setup_requirements,
-    test_suite='tests',
+    test_suite='django_page_hits.tests',
     tests_require=test_requirements,
     url='https://github.com/amritghimire/django_page_hits',
     version='0.1.0',
