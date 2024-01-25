@@ -43,6 +43,6 @@ setup(
     test_suite='django_page_hits.tests',
     tests_require=test_requirements,
     url='https://github.com/amritghimire/django_page_hits',
-    version='0.1.0',
+    version='0.2.0',
     zip_safe=False,
 )
